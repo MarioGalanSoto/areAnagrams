@@ -1,16 +1,16 @@
-# areAnagrams
+<h1>areAnagrams</h1>
 
-## Overview:
+<h2>Overview:</h2>
 
 The areAnagrams project is a JavaScript utility that provides a function for checking whether two words are anagrams. Anagrams are words that have the same characters with the same frequencies, but possibly in a different order. This utility is designed to be flexible, case-insensitive, and easily integrable into other JavaScript projects.
 
-## Usage:
+<h2>Usage:</h2>
 
-### Instalation:
+<h3>Instalation:</h3>
 
 Make sure you have Node.js installed on your machine
 
-### How to use:
+<h3>How to use:</h3>
 
 Clone or download the repository
 
@@ -40,7 +40,7 @@ const result = areAnagrams('listen', 'silent');
 console.log(result);  // Output: true
 ```
 
-## Testing:
+<h2>Testing:</h2>
 
 To run the tests, execute the following command:
 
@@ -48,11 +48,11 @@ To run the tests, execute the following command:
 npx mocha test.js
 ```
 
-## Functionality:
+<h2>Functionality:</h2>
 The areAnagrams function checks whether two input words are anagrams, returning true if they are and false otherwise. The function is case-insensitive and handles various scenarios, including empty strings and words with different lengths.
 
-## Test Cases:
+<h2>Test Cases:</h2>
 The project includes a set of test cases to ensure the correctness of the areAnagrams function. These tests cover anagrams, non-anagrams, case-insensitivity, empty strings, and different word lengths.
 
-## License:
+<h2>License:</h2>
 This project is licensed under the MIT License - see the LICENSE file for details.
