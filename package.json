@@ -1,0 +1,27 @@
+{
+  "name": "are_anagrams",
+  "version": "1.0.0",
+  "description": "The areAnagrams program is a JavaScript utility that checks whether two input words are anagrams. Anagrams are words or phrases that contain the same characters with the same frequencies, disregarding the order of characters. The program is case-insensitive, meaning it treats uppercase and lowercase letters as equivalent.",
+  "main": "areAnagrams.js",
+  "scripts": {
+    "test": "npx mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarioGalanSoto/areAnagrams.git"
+  },
+  "keywords": [
+    "Anagrams"
+  ],
+  "author": "Mario Galan Soto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarioGalanSoto/areAnagrams/issues"
+  },
+  "homepage": "https://github.com/MarioGalanSoto/areAnagrams#readme",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "node": "^21.2.0"
+  }
+}
